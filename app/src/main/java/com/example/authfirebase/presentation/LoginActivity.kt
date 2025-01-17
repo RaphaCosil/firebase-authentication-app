@@ -1,13 +1,13 @@
-package com.example.authenticationtemplate.presentation
+package com.example.authfirebase.presentation
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.authenticationtemplate.data.FirebaseManager
+import com.example.authfirebase.data.FirebaseManager
+import com.example.authfirebase.databinding.ActivityLoginBinding
 import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException
 import com.google.firebase.auth.FirebaseAuthInvalidUserException
-import com.example.authenticationtemplate.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity() {
 

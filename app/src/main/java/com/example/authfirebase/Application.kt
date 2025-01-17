@@ -1,4 +1,4 @@
-package com.example.authenticationtemplate
+package com.example.authfirebase
 
 import android.app.Application
 import com.google.firebase.FirebaseApp

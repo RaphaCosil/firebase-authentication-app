@@ -1,10 +1,10 @@
-package com.example.authenticationtemplate.presentation
+package com.example.authfirebase.presentation
 
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.authenticationtemplate.data.FirebaseManager
-import com.example.authenticationtemplate.databinding.ActivityRegisterBinding
+import com.example.authfirebase.data.FirebaseManager
+import com.example.authfirebase.databinding.ActivityRegisterBinding
 
 class RegisterActivity : AppCompatActivity() {
 

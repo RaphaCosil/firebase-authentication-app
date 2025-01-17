@@ -1,4 +1,4 @@
-package com.example.authenticationtemplate.data
+package com.example.authfirebase.data
 
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser

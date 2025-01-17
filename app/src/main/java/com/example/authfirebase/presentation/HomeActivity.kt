@@ -1,11 +1,11 @@
-package com.example.authenticationtemplate.presentation
+package com.example.authfirebase.presentation
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
-import com.example.authenticationtemplate.data.FirebaseManager
-import com.example.authenticationtemplate.databinding.ActivityHomeBinding
+import com.example.authfirebase.data.FirebaseManager
+import com.example.authfirebase.databinding.ActivityHomeBinding
 
 class HomeActivity : AppCompatActivity() {
 
