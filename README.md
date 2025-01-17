@@ -1,1 +1,1 @@
-# firebase-authentication-app
+# firebase-authentication-template-app

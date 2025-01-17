@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">auth</string>
+    <string name="logout">logout</string>
+    <string name="type_your_email">Type your email</string>
+    <string name="type_your_password">Type your password</string>
+    <string name="login">login</string>
+    <string name="don_t_have_an_account_sign_up_here">Don\'t have an account? Sign up here</string>
+</resources>
