@@ -1,4 +1,4 @@
-# Firebase Authentication App
+# firebase-authentication-app
 
 This is an Android application template for Firebase Authentication. It includes the following features:
 
