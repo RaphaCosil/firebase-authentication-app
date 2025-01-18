@@ -26,14 +26,14 @@ Manages Firebase Authentication operations, including:
 
 ### Activities
 
-**`LoginActivity`:**
+- **`LoginActivity`:**
     - Allows users to log in.
     - Redirects authenticated users to the `HomeActivity`.
     - Displays error messages for invalid credentials.
-**`HomeActivity`:**
+- **`HomeActivity`:**
     - Displays the current user's profile information (name, email, and profile picture).
     - Provides a logout button to sign out the user.
-**`RegisterActivity`:**
+- **`RegisterActivity`:**
     - Allows new users to register.
     - Updates the user's profile with a display name after successful registration.
 
