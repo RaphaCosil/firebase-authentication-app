@@ -1,8 +1,8 @@
 # Firebase Authentication App
 
-This is an Android application of a template for using Firebase Authentication. With the following features:
+This is an Android application template for Firebase Authentication. It includes the following features:
 
-### Features
+## Features
 
 - **User Registration:** Create new user accounts using Firebase Authentication.
 - **User Login:** Authenticate existing users with email and password.
@@ -11,22 +11,20 @@ This is an Android application of a template for using Firebase Authentication. 
 - **Login Status Check:** Verify if a user is logged in.
 - **Current User Info:** Retrieve the logged-in user's details (name, email, and profile picture).
 
----
+## Technical Structure
 
-### Technical Structure
-
-**FirebaseManager**
+### FirebaseManager
 
 Manages Firebase Authentication operations, including:
 
-- User registration (`registerUser`)
-- User login (`loginUser`)
-- User logout (`logoutUser`)
-- Update user profile (`updateUserProfile`)
-- Check login status (`isUserLoggedIn`)
-- Retrieve current user (`getCurrentUser`)
+- **User Registration:** `registerUser`
+- **User Login:** `loginUser`
+- **User Logout:** `logoutUser`
+- **Update Profile:** `updateUserProfile`
+- **Check Login Status:** `isUserLoggedIn`
+- **Retrieve User Info:** `getCurrentUser`
 
-**Activities**
+### Activities
 
 - **`LoginActivity`:**
     - Allows users to log in.
@@ -39,15 +37,11 @@ Manages Firebase Authentication operations, including:
     - Allows new users to register.
     - Updates the user's profile with a display name after successful registration.
 
----
-
 ## Permissions
 
 The app requests the following permissions to function properly:
 
 - **Internet Access:** Required for Firebase Authentication and data retrieval.
-
----
 
 ## How to Use
 
@@ -58,5 +52,4 @@ The app requests the following permissions to function properly:
     - Download the `google-services.json` file and place it in the `app` directory.
     - Add Firebase dependencies to the `build.gradle` files.
 3. Build and run the application.
-
----
+   
