@@ -41,7 +41,7 @@ Manages Firebase Authentication operations, including:
 
 The app requests the following permissions to function properly:
 
-**Internet Access:** Required for Firebase Authentication and data retrieval.
+- **Internet Access:** Required for Firebase Authentication and data retrieval.
 
 ## How to Use
 
